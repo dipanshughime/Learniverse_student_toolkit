@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Notion = () => {
+function Notion() {
   return (
     <div>Notion</div>
   )

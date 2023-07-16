@@ -1,3 +1,32 @@
+body{
+
+  background-image: linear-gradient(to top, rgba(2,0,36,1) 0%, rgba(55,65,81,1)35%);
+   background-attachment: fixed;
+}
+
+.response{
+  color: white;
+  width: 400px;
+}
+
+.text{
+
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 100px;
+
+}
+
+.generate{
+  margin-top: 30px;
+  height: 40px;
+  background-color: rgb(18, 110, 118);
+  border: none;
+  color: white;
+}
 .App {
   display: flex;
   flex-direction: column;

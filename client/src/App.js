@@ -9,6 +9,7 @@ import Gpt from './pages/gpt';
 import Notion from './pages/notion';
 
 import YourVideos from './youtube/YourVideos';
+import Chatapp from './Chatgpt/chatapp';
 
 function App() {
   return (
@@ -21,7 +22,7 @@ function App() {
     <Route exact path="/" element = {<Home/>} />
     <Route  path="/about" element = {<About/>} />
     <Route path="/contact" element = {<Contact/>} />
-    <Route path="/gpt" element = {<Gpt/>} />
+    <Route path="/gpt" element = {<Chatapp/>} />
     <Route path="/index" element = {<Notion/>} />
     <Route path="/videos" element = {<YourVideos/>} />
   </Routes>      
