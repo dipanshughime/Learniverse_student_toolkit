@@ -18,8 +18,8 @@ class Searchbar extends React.Component {
             <>
               <h2 className="text-center">
                 <img
-                  className="w-56 h-28 mx-auto"
-                  src="https://www.thatitguy.net/wp-content/uploads/2018/08/1280px-Logo_of_YouTube_2015-2017.svg.png"
+                  className="w-56 h-30 mx-auto"
+                  src="https://media.giphy.com/media/Jt4pLDfSCRMkLBplxJ/giphy.gif?cid=ecf05e47vk93b2b1wevgiyvzqaqj9x70fpz2f7kyvd80acwy&ep=v1_gifs_search&rid=giphy.gif&ct=g"
                   alt="youtube logo"
                 />
               </h2>
