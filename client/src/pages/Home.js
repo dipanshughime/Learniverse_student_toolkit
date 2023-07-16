@@ -30,10 +30,12 @@ function Home() {
           <p className="text-gray-300">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
         </Link>
+        <Link to="/sumz"> 
         <div className="bg-gray-800 rounded-lg shadow-xl p-6 mx-4 my-2">
-          <h2 className="text-white text-xl mb-4">Card 4</h2>
+          <h2 className="text-white text-xl mb-4">Summarizer</h2>
           <p className="text-gray-300">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
+        </Link>
         <div className="bg-gray-800 rounded-lg shadow-xl p-6 mx-4 my-2">
           <h2 className="text-white text-xl mb-4">Card 5</h2>
           <p className="text-gray-300">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
