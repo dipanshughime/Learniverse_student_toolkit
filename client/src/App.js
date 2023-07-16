@@ -22,7 +22,7 @@ function App() {
     <Route  path="/about" element = {<About/>} />
     <Route path="/contact" element = {<Contact/>} />
     <Route path="/gpt" element = {<Gpt/>} />
-    <Route path="/index" element = {<Notion/>} />
+    <Route path="/notion" element = {<Notion/>} />
     <Route path="/videos" element = {<YourVideos/>} />
   </Routes>      
   

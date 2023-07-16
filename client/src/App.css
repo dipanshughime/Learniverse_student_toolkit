@@ -6,6 +6,10 @@
   height: 100vh;
 }
 
+.test{
+  width:100vw;
+  height: 100vh;
+}
 .chat {
   display: flex;
   flex-direction: column;
