@@ -4,12 +4,12 @@ const VideoDetail = ({ video }) => {
   if (!video) {
     return (
       <div>
-        <h1 className="text-blue-500 text-2xl mb-4">kuch aacha sa</h1>
+        <h1 className="text-blue-500 text-2xl mb-4">Learniverse Binge</h1>
         <br />
         <p className="text-lg leading-7">
-          ye change karna hai
+          Let's start your learning journey with learniverse
           <br />
-          yaha bhi kuch likhna hai
+          Unlocking Knowledge, One Click at a Time: Your Online Teaching Video Oasis!.
         </p>
       </div>
     );

@@ -1,6 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
-import { sendMessageToOpenApi } from '../openai';
+import "../App.css";
+import { sendMessageToOpenApi } from "../openai";
 
 
 
@@ -17,6 +18,7 @@ function Gpt() {
         { text: response, isUser: false },
       ]);
       setInput("");
+      console.log(response);
     } catch (error) {
       console.log("Error sending message:", error);
     }

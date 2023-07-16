@@ -9,7 +9,7 @@ import Gpt from './pages/gpt';
 import Notion from './pages/notion';
 import Content from './pages/content';
 import YourVideos from './youtube/YourVideos';
-import Chatapp from './Chatgpt/chatapp';
+import Chatapp from './pages/gpt';
 import Sumzapp from './Sumz/Sumzapp';
 
 function App() {
