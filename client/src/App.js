@@ -6,6 +6,7 @@ import Contact from './pages/contact';
 import Navbar from './Component/Navbar';
 import React from 'react'
 import Gpt from './pages/gpt';
+import YourVideos from './youtube/YourVideos';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
     <Route  path="/about" element = {<About/>} />
     <Route path="/contact" element = {<Contact/>} />
     <Route path="/gpt" element = {<Gpt/>} />
+    <Route path="/videos" element = {<YourVideos/>} />
   </Routes>      
   
 </BrowserRouter>
