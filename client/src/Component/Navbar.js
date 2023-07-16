@@ -10,7 +10,12 @@ function Navbar() {
           <div className="flex-shrink-0 flex items-center">
             <Link to="/" className="flex items-center">
               <BiHomeAlt2 className="text-white text-3xl" />
-              <span className="ml-2 text-white text-xl">Learniverse</span>
+              <span className="ml-1 text-white text-2xl">Learniverse</span>
+              <img
+              src="https://i.gifer.com/yy3.gif"
+              alt="logo"
+              className="w-40 z-0 ml-2"
+            />
             </Link>
           </div>
           <div className="hidden sm:block">

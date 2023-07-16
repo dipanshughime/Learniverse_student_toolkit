@@ -6,6 +6,7 @@ import { sendMessageToOpenApi } from "../openai";
 
 
 function Gpt() {
+  
   const [input, setInput] = useState("");
   const [messages, setMessages] = useState([]);
 
