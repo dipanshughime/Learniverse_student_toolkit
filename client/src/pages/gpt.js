@@ -1,30 +1,50 @@
-import React from 'react'
+import React from 'react';
 import { useState } from 'react';
+import { sendMessageToOpenApi } from '../openai';
+
+
+
 function Gpt() {
-    const [input, setInput] = useState("");
-    const [messages, setMessages] = useState( [] ) ;
+  const [input, setInput] = useState("");
+  const [messages, setMessages] = useState([]);
 
-
-    const handlerSend = () => {
-        console.log('send');
+  const handleMessageSubmit = async () => {
+    try {
+      const response = await sendMessageToOpenApi(input);
+      setMessages([
+        ...messages,
+        { text: input, isUser: true },
+        { text: response, isUser: false },
+      ]);
+      setInput("");
+    } catch (error) {
+      console.log("Error sending message:", error);
     }
+  };
+
   return (
-<div className='App'>
-    <div className='chat'>
-    <div className='user-message'>this is User msg</div>
-    <div className='bot-message'>this is bot msg</div>
+    <div className="App">
+      <div className="chat">
+        {messages.map((message, index) => (
+          <div
+            key={index}
+            className={message.isUser ? "user-message" : "bot-message"}
+          >
+            {message.text}
+          </div>
+        ))}
+      </div>
+      <div className="input-container">
+        <input
+          type="text"
+          value={input}
+          onChange={(e) => setInput(e.target.value)}
+        />
+        <button onClick={handleMessageSubmit}>Send</button>
+      </div>
     </div>
-
-    <div className=" input-container">
-<input
-type="text" value={input}
-onChange={(e) => setInput (e.target. value)}
-/>
-<button  className="button" onClick={handlerSend}>send</button>
-</div>
-
-</div>
-  )
+  );
 }
 
-export default Gpt
+
+export default Gpt;

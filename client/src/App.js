@@ -8,6 +8,7 @@ import React from 'react'
 import Gpt from './pages/gpt';
 import Notion from './pages/notion';
 
+import YourVideos from './youtube/YourVideos';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
     <Route path="/contact" element = {<Contact/>} />
     <Route path="/gpt" element = {<Gpt/>} />
     <Route path="/index" element = {<Notion/>} />
+    <Route path="/videos" element = {<YourVideos/>} />
   </Routes>      
   
 </BrowserRouter>

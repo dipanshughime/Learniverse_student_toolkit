@@ -1,6 +1,6 @@
 const {Configuration,OpenAIApi} = require("openai");
 
-const API_KEY = "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";
+const API_KEY = "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";
 
  
 const configuration = new Configuration ( {
@@ -9,8 +9,8 @@ const configuration = new Configuration ( {
     const openai = new OpenAIApi (configuration);
 
     export async function  sendMessageToOpenApi(message){
-        const response = await openai. createCompletion({
-            model: "text-davinci-003",
+        const response = await openai.createCompletion({
+            model:"text-davinci-003",
              prompt: message, 
              temperature: 0.7 ,
              max_tokens: 256, 
