@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Notion = () => {
+function Notion() {
   return (
     <iframe id="inlineFrameExample"
     title="Inline Frame Example"

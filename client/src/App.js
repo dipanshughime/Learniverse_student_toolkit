@@ -9,6 +9,8 @@ import Gpt from './pages/gpt';
 import Notion from './pages/notion';
 
 import YourVideos from './youtube/YourVideos';
+import Chatapp from './Chatgpt/chatapp';
+import Sumzapp from './Sumz/Sumzapp';
 
 function App() {
   return (
@@ -23,7 +25,10 @@ function App() {
     <Route path="/contact" element = {<Contact/>} />
     <Route path="/gpt" element = {<Gpt/>} />
     <Route path="/notion" element = {<Notion/>} />
+    <Route path="/gpt" element = {<Chatapp/>} />
     <Route path="/videos" element = {<YourVideos/>} />
+    <Route path="/sumz" element = {<Sumzapp/>} />
+
   </Routes>      
   
 </BrowserRouter>

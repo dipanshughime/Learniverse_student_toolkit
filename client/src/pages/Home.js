@@ -24,14 +24,18 @@ function Home() {
      
         <Link to="/videos"> 
         <div className="bg-gray-800 rounded-lg shadow-xl p-6 mx-4 my-2">
-          <h2 className="text-white text-xl mb-4">Card 3</h2>
+        <div className="bg-cover bg-center h-40 w-full" style={{ backgroundImage: "url('https://media.giphy.com/media/RguB9vdKYABsR43G36/giphy.gif?cid=ecf05e47enclm2xaffux49id7pufgl9ym09v62adsymk474i&ep=v1_gifs_search&rid=giphy.gif&ct=g')" }}>
+          </div>
+          <h2 className="text-white text-xl mb-4">Learn</h2>
           <p className="text-gray-300">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
         </Link>
+        <Link to="/sumz"> 
         <div className="bg-gray-800 rounded-lg shadow-xl p-6 mx-4 my-2">
-          <h2 className="text-white text-xl mb-4">Card 4</h2>
+          <h2 className="text-white text-xl mb-4">Summarizer</h2>
           <p className="text-gray-300">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
+        </Link>
         <div className="bg-gray-800 rounded-lg shadow-xl p-6 mx-4 my-2">
           <h2 className="text-white text-xl mb-4">Card 5</h2>
           <p className="text-gray-300">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
