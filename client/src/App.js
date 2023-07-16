@@ -6,6 +6,8 @@ import Contact from './pages/contact';
 import Navbar from './Component/Navbar';
 import React from 'react'
 import Gpt from './pages/gpt';
+import Notion from './pages/notion';
+
 
 function App() {
   return (
@@ -19,6 +21,7 @@ function App() {
     <Route  path="/about" element = {<About/>} />
     <Route path="/contact" element = {<Contact/>} />
     <Route path="/gpt" element = {<Gpt/>} />
+    <Route path="/index" element = {<Notion/>} />
   </Routes>      
   
 </BrowserRouter>

@@ -13,12 +13,15 @@ function Home() {
           <p className="text-gray-300">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
         </Link>
+        <Link to="/notion">
         <div className="bg-gray-800 rounded-lg shadow-xl p-6 mx-4 my-2">
         <div className="bg-cover bg-center h-40 w-full" style={{ backgroundImage: "url('https://media.giphy.com/media/2Y7tZMmIpwV6Lnc5QC/giphy.gif?cid=ecf05e470x4sewudaswvwexd73dpg8jlmnqoafq1yr1qpe1e&ep=v1_gifs_search&rid=giphy.gif&ct=g')" }}>
           </div>
           <h2 className="text-white text-xl mb-4">Notes</h2>
           <p className="text-gray-300">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
+        </Link>
+     
         <div className="bg-gray-800 rounded-lg shadow-xl p-6 mx-4 my-2">
           <h2 className="text-white text-xl mb-4">Card 3</h2>
           <p className="text-gray-300">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
